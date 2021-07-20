@@ -1,0 +1,181 @@
+/* HEADER */
+header {
+    margin-top: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGO */
+header .starbucks-logo a > img {
+    max-width: 9.2rem;
+}
+
+header .starbucks-menu > a {
+    width: 10rem;
+
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+header .starbucks-menu a > p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--grey);
+}
+/* ---------------- */
+
+
+/* MAIN */
+main {
+    transform: translateY(70%);
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    position: relative;
+}
+/* ---------------- */
+
+
+/* BOXTEXT */
+main section .boxText {
+    max-width: 90rem;
+}
+
+main section .boxText h1 {
+    font-size: 6.4rem;
+    font-weight: 500;
+    line-height: 1.2em;
+
+    color: var(--grey);
+}
+
+main section .boxText h1 > b {
+    font-size: 6.8rem;
+    font-weight: 900;
+
+    color: var(--green);
+}
+
+main section .boxText > p {
+    display: block;
+    max-width: 60rem;
+
+    font-size: 1.6rem;
+    color: var(--grey);
+}
+
+main section .boxText > a {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: .8rem 2rem;
+
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    color: white;
+
+    border-radius: 4rem;
+    background-color: var(--green);
+
+    transition: .3s;
+}
+
+main section .boxText > a:hover {
+    background-color: #249e6b;
+}
+/* ---------------- */
+
+
+/* BOX-IMG */
+main section .boxImg {
+    position: absolute;
+    right: 18rem;
+}
+
+main section .boxImg > img {
+    max-width: 34.0rem;
+
+    transition: .5s;
+}
+
+main section .boxImg > img:hover {
+    transform: scale(1.1);
+}
+/* ---------------- */
+
+
+/* SOCIAL MEDIA */
+main .social-media ul {
+    position: absolute;
+    right: 2rem;
+    top: 10%;
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transform: scale(0.6);
+    filter: invert();
+}
+
+main .social-media ul > li {
+    margin-top: 5.2rem;
+
+    transition: .5s;
+}
+
+main .social-media ul > li:hover {
+    transform: scale(1.2);
+}
+/* ---------------- */
+
+
+/* FOOTER */
+footer ul {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1.6rem;
+}
+
+footer ul > li {
+    padding: 0 1.6rem;
+
+    transition: .5s;
+}
+
+footer ul > li:hover {
+    transform: scale(1.4);
+}
+
+footer ul > li > img {
+    max-width: 6.8rem;
+}
+/* ---------------- */
+
+
+/* CIRCLE */
+.circle {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 800px);
+}
+/* ---------------- */

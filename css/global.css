@@ -1,0 +1,33 @@
+/* CROSS-BROWSER */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    text-decoration: none;
+    list-style: none;
+}
+/* ---------------- */
+
+html, body {
+    height: 100vh;
+    
+    overflow: hidden;
+    font-family: 'Poppins', serif;
+
+    --grey: #333;
+    --green: #017143;
+}
+
+
+/* CONTAINER */
+/* ---------------- */
+.container {
+    margin-left: 9.6rem;
+    margin-right: 9.6rem;
+}
+
+.container_left {
+    margin-left: 9.6rem;
+}
+/* ---------------- */
